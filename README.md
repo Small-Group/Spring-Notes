@@ -13,7 +13,7 @@ Spring源码学习笔记，从基本的使用出发，剖析功能底层实现�
 
 # 一、Spring MVC
 - Controller方法参数绑定  
-场景：想对传入Controller中的方法的传入参数进行修改 
-疑问：Controller中的方法的传入参数如何被赋值的？怎么根据注解@RequestParam、@RequestBody将值赋给指定类型的参数？自定义参数HandlerMethodArgumentResolver是怎么实现的？切面环绕增强修改参数是怎么实现的？这两者有什么差别，如果都实现了，谁先谁后执行？ 
+场景：想对传入Controller中的方法的传入参数进行修改  
+疑问：Controller中的方法的传入参数如何被赋值的？怎么根据注解@RequestParam、@RequestBody将值赋给指定类型的参数？自定义参数HandlerMethodArgumentResolver是怎么实现的？切面环绕增强修改参数是怎么实现的？这两者有什么差别，如果都实现了，谁先谁后执行？  
 - DispachterServlert执行流程 
 

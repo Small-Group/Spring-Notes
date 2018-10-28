@@ -15,7 +15,7 @@ Spring源码学习笔记，从基本的使用出发，剖析功能底层实现�
   - 场景：想对传入Controller中的方法的传入参数进行修改  
   - 问题：
     1. Controller中的方法的传入参数如何被赋值的？
-    2. 怎么根据注解@RequestParam、@RequestBody将值赋给指定类型的参数？
+    2. 怎么根据注解@RequestParam、@RequestBody、@PathVariable将值赋给指定类型的参数？
     3. 自定义参数HandlerMethodArgumentResolver是怎么实现的？
     4. 切面环绕增强修改参数是怎么实现的？
     5. 这两种修改参数的方式有什么差别，如果都实现了，谁先谁后执行？  
@@ -50,6 +50,7 @@ Spring源码学习笔记，从基本的使用出发，剖析功能底层实现�
   - 问题
     1. @SpringBootApplication 注解原理
     2. @Conditional注解实现原理
+    3. @EnableAutoConfiguration注解实现原理
 - 内置Tomcat原理
   - 问题
     1. 为什么不需要配置web.xml
